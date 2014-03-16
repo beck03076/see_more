@@ -19,4 +19,6 @@ Gem::Specification.new do |gem|
   
   gem.add_dependency "rails", ">= 3.1"
   gem.add_dependency "jquery-rails"
+
+  gem.add_development_dependency "rspec" 
 end
