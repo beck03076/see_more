@@ -9,6 +9,12 @@ module SeeMore
                 classes << opts[:classes]
                 classes.flatten!
               end
+               # setting classes to see more link from opts as array
+              lk_classes = ["see_more_link"]
+              unless opts[:link_classes].nil?
+                lk_classes << opts[:link_classes]
+                lk_classes.flatten!
+              end
               # by default 20 chars will be displayed
               ctnt_size = opts[:content_size] || 20
               ctnt = content[0..ctnt_size]
@@ -31,7 +37,7 @@ module SeeMore
                                   route: rte,
                                   field: field.to_s,
                                   content: content},
-                          class: "see_more_link"})
+                          class: lk_classes})
               out << "</span>"
               out.html_safe
            end
