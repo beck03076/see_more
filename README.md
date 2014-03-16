@@ -1,8 +1,8 @@
 # SeeMore
 
-**see_more** gem is pretty straight forward in truncating and displaying any large text in a small space with a "...see more" link in the end. If clicked, this link shows the entire text and the "..see more" link automatically toggles to "...see less" link. That's all. 
+**see_more** gem is pretty straight forward in truncating and displaying any large text in a small space with a "see more" link in the end. If clicked, this link shows the entire text and the "see more" link automatically toggles to "see less" link. That's all. 
 
-Also, this assumes that the server has standard defined REST methods, especially "show"
+Also, this assumes that the server has standard defined REST methods.
 
 ## Installation
 
