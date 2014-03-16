@@ -31,7 +31,6 @@ In your view(ideally show.html.erb)
     <%= see_more @product,:desc, {db: true,link_classes: "clickable",classes: "light",content_size: 30} %>
 
 ###see_more
-**see_more object, field, OPTIONS**
 
 Params:
 
@@ -41,7 +40,7 @@ Params:
 
 Options:
 
-- **:classes** Displaying of text is inside a span with a class="see_more_span". You can add more classes through this option.(<span class="see_more_span"><span class="see_more_content">--content--</span><a class="see_more_link">see more</span>)
+- **:classes** Displaying of text is inside a span with a class="see_more_span". You can add more classes through this option.(<span class="see_more_span"><span class="see_more_content">--content--</span><a class="see_more_link">see more</a></span>)
 - **:link_classes**: You can add more classes to the "see more" <a> tag with this option.
 - **:content_size**: The number of characters to be displayed intially with the "see more" link.
 - **:db**: Value can either be "true" or "false". If its true, only when you click on the link, the entire text is fetched from the db, if its false, even before clicking on the link, the entire text is rendered, it just hides/unhides the content.
