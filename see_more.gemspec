@@ -6,10 +6,10 @@ require 'see_more/version'
 Gem::Specification.new do |gem|
   gem.name          = "see_more"
   gem.version       = SeeMore::VERSION
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["beck03076"]
+  gem.email         = ["senthilkumar.hce@gmail.com"]
+  gem.description   = %q{ This is Toggleable }
+  gem.summary       = %q{See more}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
