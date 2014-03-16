@@ -37,7 +37,7 @@ Params:
 
 - **object** (Mandatory): The Object parameter represents the object itself(the active record object).
 - **field** (Mandatory): The field (passed as symbol) is the attribute of the Object you are going to display as large text.
-- 
+
 
 Options:
 
