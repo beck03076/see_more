@@ -17,8 +17,14 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   
+  gem.add_development_dependency "jasmine"
+  gem.add_development_dependency "rspec" 
+  gem.add_development_dependency "nokogiri"
+  gem.add_development_dependency 'sequel-bit_fields'
+  gem.add_development_dependency 'sqlite3'
+  
   gem.add_dependency "rails", ">= 3.1"
   gem.add_dependency "jquery-rails"
 
-  gem.add_development_dependency "rspec" 
+  
 end
